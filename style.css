@@ -1,0 +1,125 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-color: HSLA(0, 0%, 91%, 1);
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+	width: 125px;
+	height: 125px;
+	opacity: 0.75;
+	vertical-align: text-top;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	max-width: 1366px;
+	width: 100%;
+	height: 100vh;
+}
+
+.banner {
+    text-align: center;
+    color: red;
+    font-size: 45px;
+}
+
+.email {
+	text-align: center;
+	display: block;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.email input {
+	box-sizing: border-box;
+	display: block;
+	border: none;
+	padding: 20px;
+	width: 100%;
+	border: 1px solid black;
+	font-size: 20px;
+	outline: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.email input::-webkit-input-placeholder {
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	color: #999;
+}
+
+.email input::-moz-placeholder {
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	color: #999;
+}
+
+.email input:-ms-input-placeholder {
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	color: #999;
+}
+.email input::placeholder {
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	color: #999;
+}
+.email input:focus {
+	padding-top: 28px;
+	padding-bottom: 12px;
+}
+.email input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+.email input:focus::-moz-placeholder {
+	color: transparent;
+}
+.email input:focus:-ms-input-placeholder  {
+	color: transparent;
+}
+.email input:focus::placeholder {
+	color: transparent;
+}
+.email input:focus + span {
+	opacity: 1;
+	top: -60px;
+}
+.email span {
+	color: red;
+	position: relative;
+	top: -90px;
+	left: -110px;
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	text-transform: lowercase;
+}
+.email > button {
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	border: none;
+	padding: 16px 40px;
+	font-size: 15px;
+	background-color: red;
+	display: block;
+	margin: 0 auto;
+}
+.email > button:hover {
+	background: #109f67;
+	cursor: pointer;
+}
+
+/*@media (max-width: )*/
